@@ -19,7 +19,7 @@ deliverables: '1 HTML file, 4 CSS files, images'
 ## Details
 
 - *Typefaces:* `Georgia`
-- *Colours:* `#fff`, `#efefef`, `#97a49b`, `#495562`, `rgba(73, 85, 98, .9)`, `transparent`
+- *Colours:* `#fff`(text colour), `#efefef`(big btn outline), `#97a49b`(outline of btn), `#495562`(background), `rgba(73, 85, 98, .9)`, `transparent`
 - *Maximum heights:* `500px`
 - *Modulifier settings:* select all
 - *Gridifier settings:* defaults
