@@ -1,10 +1,39 @@
 html {
   color: #fff;
-  background-color: rgba(73, 85, 98, .9);
-  font-family: serif;
+  background-color: #495562;
+  font-family: Georgia, serif;
 }
 
 .btn {
   color: #fff;
   border-color: #97a49b;
+}
+
+img {
+  max-height: 500px;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .banner {
+    position: relative;
+  }
+
+  html {
+    background-color: transparent;
+  }
+
+  .banner-text {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-image: linear-gradient(to top, rgba(73, 85, 98, .9), transparent);
+  }
+
+  .btn {
+    color: #fff;
+    border-color: #efefef;
+    float: right;
+  }
+
 }
